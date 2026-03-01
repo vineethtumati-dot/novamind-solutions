@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaMind AI Solutions - Transforming Ideas into Intelligent Solutions</title>
+    <meta name="description" content="NovaMind AI Solutions provides cutting-edge AI & Machine Learning, Web Development, and Data Analytics services for startups and enterprises.">
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <span class="logo-nova">Nova</span><span class="logo-mind">Mind</span> <span class="logo-ai">AI</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background"></div>
+      <div class="container hero-content">
+        <h1 class="hero-title">Transforming Ideas into Intelligent Solutions</h1>
+        <p class="hero-subtitle">
+          We harness the power of artificial intelligence to build innovative, scalable solutions
+          that drive growth and transform businesses in the digital age.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+          <a href="#projects" class="btn btn-secondary">View Projects</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About NovaMind AI</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Our Mission & Vision</h3>
+            <p>
+              At NovaMind AI Solutions, we believe in the transformative power of artificial intelligence.
+              Our mission is to make cutting-edge AI technology accessible to businesses of all sizes,
+              enabling them to innovate, optimize, and scale with confidence.
+            </p>
+            <p>
+              With years of expertise in machine learning, software development, and data science,
+              we partner with startups and enterprises to turn complex challenges into elegant,
+              intelligent solutions.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">💡</div>
+              <h4>Innovation First</h4>
+              <p>Pushing boundaries with cutting-edge AI technology and creative problem-solving</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">📈</div>
+              <h4>Scalable Solutions</h4>
+              <p>Building robust systems that grow with your business needs</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">📊</div>
+              <h4>Data-Driven Decisions</h4>
+              <p>Leveraging analytics and insights to maximize ROI and impact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">Comprehensive technology solutions tailored to your business goals</p>
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3>AI & Machine Learning Solutions</h3>
+            <p>
+              Custom AI models, neural networks, and machine learning algorithms designed to automate
+              processes, predict trends, and unlock insights from your data.
+            </p>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Web & App Development</h3>
+            <p>
+              Full-stack development services for web and mobile applications with modern frameworks,
+              responsive design, and seamless user experiences across all devices.
+            </p>
+          </article>
+
+          <!-- Service Card 3 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3>Data Analytics & Automation</h3>
+            <p>
+              Transform raw data into actionable insights with advanced analytics, visualization
+              dashboards, and intelligent automation workflows that boost productivity.
+            </p>
+          </article>
+
+          <!-- Service Card 4 -->
+          <article class="service-card">
+            <div class="service-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3>Cloud Integration Services</h3>
+            <p>
+              Seamless cloud migration, infrastructure setup, and integration services for AWS,
+              Azure, and Google Cloud to ensure scalability and reliability.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Showcasing our latest innovations and successful client partnerships</p>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AI-Powered Analytics Platform">
+              <div class="project-overlay">
+                <span class="project-category">Machine Learning</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>AI-Powered Analytics Platform</h3>
+              <p>
+                Developed a real-time predictive analytics platform for a fintech startup,
+                reducing decision-making time by 70% and increasing revenue forecasting accuracy.
+              </p>
+              <a href="#contact" class="project-link">Learn More →</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Enterprise Resource Management System">
+              <div class="project-overlay">
+                <span class="project-category">Web Development</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Enterprise Resource Management System</h3>
+              <p>
+                Built a comprehensive cloud-based ERP system for manufacturing, streamlining
+                operations across 12 departments and improving efficiency by 45%.
+              </p>
+              <a href="#contact" class="project-link">Learn More →</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Intelligent Chatbot Solution">
+              <div class="project-overlay">
+                <span class="project-category">AI & NLP</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Intelligent Chatbot Solution</h3>
+              <p>
+                Created an NLP-powered customer service chatbot handling 10,000+ daily interactions
+                with 95% accuracy, reducing support costs by 60%.
+              </p>
+              <a href="#contact" class="project-link">Learn More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Ready to transform your business with AI? Let's talk about your project</p>
+        <div class="contact-content">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your Company Ltd.">
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+              <span class="error-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+            <div id="formFeedback" class="form-feedback"></div>
+          </form>
+          <div class="contact-info">
+            <div class="info-card">
+              <h3>Why Choose NovaMind AI?</h3>
+              <ul>
+                <li>10+ years of combined AI expertise</li>
+                <li>50+ successful projects delivered</li>
+                <li>24/7 dedicated support</li>
+                <li>Agile development methodology</li>
+              </ul>
+            </div>
+            <div class="info-card">
+              <h3>Contact Information</h3>
+              <p><strong>Email:</strong> hello@novamind.ai</p>
+              <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+              <p><strong>Location:</strong> San Francisco, CA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <span class="logo-nova">Nova</span><span class="logo-mind">Mind</span> <span class="logo-ai">AI</span>
+          </div>
+          <p class="footer-tagline">Transforming Ideas into Intelligent Solutions</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <nav class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+              </svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 NovaMind AI Solutions. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
